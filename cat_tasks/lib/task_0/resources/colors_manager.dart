@@ -1,5 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:hexcolor/hexcolor.dart';
 
 class ColorsManager {
   static const Color mainColor = Color(0x1e1f24);
@@ -12,4 +12,5 @@ class ColorsManager {
   static const Color black = Colors.black;
   static const Color subTitle = Colors.grey;
   static const Color red = Colors.red;
+  static Color logincolor = HexColor("#53b175");
 }

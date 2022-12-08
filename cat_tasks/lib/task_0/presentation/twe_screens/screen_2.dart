@@ -1,9 +1,8 @@
-import 'package:cat_tasks/task_0/first_task_resources/assets_manager.dart';
-import 'package:cat_tasks/task_0/first_task_resources/colors_manager.dart';
-import 'package:cat_tasks/task_0/first_task_resources/shared_widgets/cards.dart';
-import 'package:cat_tasks/task_0/first_task_resources/shared_widgets/container.dart';
-import 'package:cat_tasks/task_0/first_task_resources/shared_widgets/main_text.dart';
-import 'package:cat_tasks/task_0/first_task_resources/string_manager.dart';
+import 'package:cat_tasks/task_0/resources/assets_manager.dart';
+import 'package:cat_tasks/task_0/resources/colors_manager.dart';
+import 'package:cat_tasks/task_0/resources/shared_widgets/containers.dart';
+import 'package:cat_tasks/task_0/resources/shared_widgets/main_text.dart';
+import 'package:cat_tasks/task_0/resources/string_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 

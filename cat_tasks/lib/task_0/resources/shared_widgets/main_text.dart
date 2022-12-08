@@ -1,4 +1,4 @@
-import 'package:cat_tasks/task_0/first_task_resources/colors_manager.dart';
+import 'package:cat_tasks/task_0/resources/colors_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sizer/sizer.dart';

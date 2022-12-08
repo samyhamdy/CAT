@@ -1,8 +1,12 @@
-import 'package:cat_tasks/task_0/screen_1.dart';
+import 'package:cat_tasks/task_0/data/cache/cache_helper.dart';
+import 'package:cat_tasks/task_0/presentation/auth/login.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await CacheHelper.init();
   runApp(const CatTasks());
 }
 
@@ -18,7 +22,7 @@ class CatTasks extends StatelessWidget {
           theme: ThemeData(
             primarySwatch: Colors.blue,
           ),
-          home: FirstTask_1(),
+          home: LoginScreen(),
         );
       },
     );

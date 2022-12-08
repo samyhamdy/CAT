@@ -1,7 +1,5 @@
-import 'package:cat_tasks/task_0/first_task_resources/colors_manager.dart';
-import 'package:cat_tasks/task_0/first_task_resources/shared_widgets/main_text.dart';
-import 'package:cat_tasks/task_0/first_task_resources/string_manager.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:cat_tasks/task_0/resources/colors_manager.dart';
+import 'package:cat_tasks/task_0/resources/shared_widgets/main_text.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -126,7 +124,7 @@ Widget container2({
 Widget container3(
         {Color? color, String? title, String? subTitle, Color? contentColor}) =>
     Container(
-      width: 15.h, //It will take a 30% of screen height
+      width: 15.h,
       height: 10.h,
       decoration:
           BoxDecoration(borderRadius: BorderRadius.circular(2.h), color: color),

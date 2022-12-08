@@ -11,4 +11,5 @@ class AssetsManager {
   static const profilePic3 = "${basePath}profile_pic3.jpg";
   static const snake = "${basePath}snake.png";
   static const vLetter = "${basePath}v_letter.png";
+  static const login = "${basePath}login_logo.svg";
 }
